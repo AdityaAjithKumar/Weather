@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly - Modern Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted playsinline>
+        <source src="background.mp4" type="video/mp4">
+        <!-- Fallback text if video doesn't load -->
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <img src="logo.png" alt="logo" style="height: 100px;">
+            </div>
+            <h1 class="logo-text">Weatherly</h1>
+        </header>
+    <div class="container">
+   
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" 
+                       class="search-input" 
+                       id="locationInput" 
+                       placeholder="Enter a city name...">
+                <button class="location-button" 
+                        id="getCurrentLocation" 
+                        title="Use current location">
+                    <i class="fas fa-location-crosshairs"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="weather-container" id="weatherContainer">
+            <div class="current-weather">
+                <div class="weather-header">
+                    <div class="location-info">
+                        <div class="location-name" id="locationName"></div>
+                        <div class="date-time" id="dateTime"></div>
+                    </div>
+                </div>
+                <div class="weather-info">
+                    <div class="weather-main">
+                        <img class="weather-icon" id="currentIcon" src="" alt="">
+                        <div>
+                            <div class="temperature" id="currentTemp"></div>
+                            <div class="condition" id="currentCondition"></div>
+                        </div>
+                    </div>
+                    <div class="weather-details">
+                        <div class="detail-item">
+                            <i class="fas fa-temperature-high"></i>
+                            <span id="feelsLike"></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-tint"></i>
+                            <span id="humidity"></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-wind"></i>
+                            <span id="windSpeed"></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-compass"></i>
+                            <span id="windDirection"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="forecast" id="forecast"></div>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
