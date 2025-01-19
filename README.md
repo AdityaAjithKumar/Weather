@@ -1,7 +1,22 @@
 # Weatherly ☀️
-<div style="text-align: center;">
-    <img src="https://github.com/AdityaAjithKumar/Weather/blob/main/logo.png" alt="logo">
+
+<div align="center">
+    <img src="https://github.com/AdityaAjithKumar/Weather/blob/main/logo.png" alt="logo" width="150">
 </div>
+
+<div align="center">
+    <a href="https://weather-n0mtlxvdm-adityaajithkumars-projects.vercel.app/" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Live%20Demo-Weatherly-blue?style=for-the-badge">
+    </a>
+    <a href="#features" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Features-Check%20Out-green?style=for-the-badge">
+    </a>
+    <a href="#getting-started" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Get%20Started-Guide-orange?style=for-the-badge">
+    </a>
+</div>
+
+---
 
 A sleek and modern weather application that provides real-time weather information and forecasts with a beautiful, responsive interface.
 
@@ -55,7 +70,10 @@ Example icons:
 </div>
 
 ## 📱 Responsive Design
-<img src="https://github.com/AdityaAjithKumar/Weather/blob/main/ss.png"  alt="UI">
+
+<div align="center">
+  <img src="https://github.com/AdityaAjithKumar/Weather/blob/main/ss.png" width="500" alt="UI">
+</div>
 
 The application is fully responsive and works seamlessly across:
 - 💻 Desktop computers
@@ -74,7 +92,6 @@ The application is fully responsive and works seamlessly across:
 - Weather data provided by [WeatherAPI](https://www.weatherapi.com/)
 - Weather icons by [Bas Milius](https://github.com/basmilius/weather-icons)
 - Background video and design elements created for Weatherly
-
 
 ## 🤝 Contributing
 
