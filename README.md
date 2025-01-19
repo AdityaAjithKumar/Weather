@@ -1,6 +1,7 @@
 # Weatherly ☀️
-
-
+<div style="text-align: center;">
+    <img src="https://github.com/AdityaAjithKumar/Weather/blob/main/logo.png" alt="logo">
+</div>
 
 A sleek and modern weather application that provides real-time weather information and forecasts with a beautiful, responsive interface.
 
