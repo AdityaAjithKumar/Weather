@@ -54,6 +54,7 @@ Example icons:
 </div>
 
 ## 📱 Responsive Design
+<img src="https://github.com/AdityaAjithKumar/Weather/blob/main/ss.png"  alt="UI">
 
 The application is fully responsive and works seamlessly across:
 - 💻 Desktop computers
