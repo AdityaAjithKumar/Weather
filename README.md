@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-    <a href="https://weather-n0mtlxvdm-adityaajithkumars-projects.vercel.app/" style="text-decoration: none;">
+    <a href="https://weather-lake-beta-71.vercel.app/" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Live%20Demo-Weatherly-blue?style=for-the-badge">
     </a>
     <a href="#features" style="text-decoration: none;">
